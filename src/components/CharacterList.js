@@ -34,7 +34,7 @@ export default function CharacterList() {
         name={info.name}
         status={info.status}
         location={info.location.name}
-        {...console.log(info.location.name)}
+        // {...console.log(info.location.name)}
         species={info.species}
         />
       )})}

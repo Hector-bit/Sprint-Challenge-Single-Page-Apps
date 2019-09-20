@@ -1,5 +1,5 @@
 import React from "react";
-import CharacterList from "./CharacterList"
+// import CharacterList from "./CharacterList"
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, CardLink

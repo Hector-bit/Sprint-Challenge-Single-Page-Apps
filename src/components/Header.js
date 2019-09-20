@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+// import {
+//   Collapse,
+//   Navbar,
+//   NavbarToggler,
+//   NavbarBrand,
+//   Nav,
+//   NavItem,
+//   NavLink,
+//   UncontrolledDropdown,
+//   DropdownToggle,
+//   DropdownMenu,
+//   DropdownItem } from 'reactstrap';
 
 export default function Header() {
   return (
@@ -22,10 +22,10 @@ export default function Header() {
           <Link to="/">Home</Link>
         </div>
         <div className="navlink">
-          <Link to="/CharacterList">Characters</Link>
+          <Link to="/Characters">Characters</Link>
         </div>
         <div className="navlink">
-          <Link to="/SearchForm">Search</Link>
+          <Link to="/Search">Search</Link>
         </div>
     </nav>
     </header>
