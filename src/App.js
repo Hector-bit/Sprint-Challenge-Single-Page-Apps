@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header.js";
 import WelcomePage from "./components/WelcomePage";
+import SearchForm from "./components/SearchForm";
 
 // import { Home, About, Contact, Navigation } from './components';
 import { Route } from "react-router-dom";
@@ -13,7 +14,7 @@ export default function App() {
       <Header />
       <Route exact path="/" component={WelcomePage}/>
       <Route path="/CharacterList" component={CharacterList}/>
-      {/* <Route path="/contact" component={Contact}/> */}
+      <Route path="/SearchForm" component={SearchForm}/>
       {/* <WelcomePage /> */}
     </main>
   );
